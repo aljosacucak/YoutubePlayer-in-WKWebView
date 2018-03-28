@@ -13,33 +13,9 @@
 		696654ED206C0F4C007DCD8E /* WKYTPlayerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 696654CB206C0F4B007DCD8E /* WKYTPlayerView.bundle */; };
 		696654EE206C0F4C007DCD8E /* WKYTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 696654CC206C0F4B007DCD8E /* WKYTPlayerView.m */; };
 		696654EF206C0F4C007DCD8E /* WKYTPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 696654CD206C0F4B007DCD8E /* WKYTPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		696654F0206C0F4C007DCD8E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 696654D2206C0F4B007DCD8E /* .gitignore */; };
-		696654F1206C0F4C007DCD8E /* youtube-player-ios-example-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 696654D4206C0F4B007DCD8E /* youtube-player-ios-example-Info.plist */; };
-		696654F2206C0F4C007DCD8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 696654D5206C0F4B007DCD8E /* InfoPlist.strings */; };
-		696654F3206C0F4C007DCD8E /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 696654D7206C0F4B007DCD8E /* AppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		696654F4206C0F4C007DCD8E /* PlaylistViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 696654D8206C0F4B007DCD8E /* PlaylistViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		696654F5206C0F4C007DCD8E /* SingleVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696654D9206C0F4B007DCD8E /* SingleVideoViewController.m */; };
-		696654F6206C0F4C007DCD8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696654DA206C0F4B007DCD8E /* Main.storyboard */; };
-		696654F7206C0F4C007DCD8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 696654DB206C0F4B007DCD8E /* main.m */; };
-		696654F8206C0F4C007DCD8E /* youtube-player-ios-example-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 696654DC206C0F4B007DCD8E /* youtube-player-ios-example-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
-		696654F9206C0F4C007DCD8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696654DD206C0F4B007DCD8E /* Images.xcassets */; };
-		696654FA206C0F4C007DCD8E /* PlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696654DE206C0F4B007DCD8E /* PlaylistViewController.m */; };
-		696654FB206C0F4C007DCD8E /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696654DF206C0F4B007DCD8E /* Launch.storyboard */; };
-		696654FC206C0F4C007DCD8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 696654E0206C0F4B007DCD8E /* AppDelegate.m */; };
-		696654FD206C0F4C007DCD8E /* SingleVideoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 696654E1206C0F4B007DCD8E /* SingleVideoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		696654FE206C0F4C007DCD8E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 696654E5206C0F4C007DCD8E /* LICENSE */; };
 		696654FF206C0F4C007DCD8E /* YoutubePlayer-in-WKWebView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 696654E6206C0F4C007DCD8E /* YoutubePlayer-in-WKWebView.podspec */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		696654E3206C0F4C007DCD8E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 696654CF206C0F4B007DCD8E /* youtube-player-ios-example.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4D6993DE18E22E0C0073680F;
-			remoteInfo = "youtube-player-ios-example";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		696654B9206C0DE5007DCD8E /* YoutubePlayer_in_WKWebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YoutubePlayer_in_WKWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,21 +25,6 @@
 		696654CB206C0F4B007DCD8E /* WKYTPlayerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WKYTPlayerView.bundle; sourceTree = "<group>"; };
 		696654CC206C0F4B007DCD8E /* WKYTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKYTPlayerView.m; sourceTree = "<group>"; };
 		696654CD206C0F4B007DCD8E /* WKYTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKYTPlayerView.h; sourceTree = "<group>"; };
-		696654CF206C0F4B007DCD8E /* youtube-player-ios-example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "youtube-player-ios-example.xcodeproj"; sourceTree = "<group>"; };
-		696654D2206C0F4B007DCD8E /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		696654D4206C0F4B007DCD8E /* youtube-player-ios-example-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "youtube-player-ios-example-Info.plist"; sourceTree = "<group>"; };
-		696654D6206C0F4B007DCD8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		696654D7206C0F4B007DCD8E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		696654D8206C0F4B007DCD8E /* PlaylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistViewController.h; sourceTree = "<group>"; };
-		696654D9206C0F4B007DCD8E /* SingleVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleVideoViewController.m; sourceTree = "<group>"; };
-		696654DA206C0F4B007DCD8E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		696654DB206C0F4B007DCD8E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		696654DC206C0F4B007DCD8E /* youtube-player-ios-example-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "youtube-player-ios-example-Prefix.pch"; sourceTree = "<group>"; };
-		696654DD206C0F4B007DCD8E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		696654DE206C0F4B007DCD8E /* PlaylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistViewController.m; sourceTree = "<group>"; };
-		696654DF206C0F4B007DCD8E /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
-		696654E0206C0F4B007DCD8E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		696654E1206C0F4B007DCD8E /* SingleVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleVideoViewController.h; sourceTree = "<group>"; };
 		696654E5206C0F4C007DCD8E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		696654E6206C0F4C007DCD8E /* YoutubePlayer-in-WKWebView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "YoutubePlayer-in-WKWebView.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,7 +47,6 @@
 				696654E5206C0F4C007DCD8E /* LICENSE */,
 				696654C5206C0F4B007DCD8E /* README.md */,
 				696654CA206C0F4B007DCD8E /* WKYTPlayerView */,
-				696654CE206C0F4B007DCD8E /* youtube-player-ios-example */,
 				696654C4206C0F4B007DCD8E /* YoutubePlayer_in_WKWebView.h */,
 				696654E6206C0F4C007DCD8E /* YoutubePlayer-in-WKWebView.podspec */,
 				696654BA206C0DE5007DCD8E /* Products */,
@@ -111,44 +71,6 @@
 			path = WKYTPlayerView;
 			sourceTree = "<group>";
 		};
-		696654CE206C0F4B007DCD8E /* youtube-player-ios-example */ = {
-			isa = PBXGroup;
-			children = (
-				696654CF206C0F4B007DCD8E /* youtube-player-ios-example.xcodeproj */,
-				696654D2206C0F4B007DCD8E /* .gitignore */,
-				696654D3206C0F4B007DCD8E /* youtube-player-ios-example */,
-			);
-			path = "youtube-player-ios-example";
-			sourceTree = "<group>";
-		};
-		696654D0206C0F4B007DCD8E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				696654E4206C0F4C007DCD8E /* youtube-player-ios-example.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		696654D3206C0F4B007DCD8E /* youtube-player-ios-example */ = {
-			isa = PBXGroup;
-			children = (
-				696654D4206C0F4B007DCD8E /* youtube-player-ios-example-Info.plist */,
-				696654D5206C0F4B007DCD8E /* InfoPlist.strings */,
-				696654D7206C0F4B007DCD8E /* AppDelegate.h */,
-				696654D8206C0F4B007DCD8E /* PlaylistViewController.h */,
-				696654D9206C0F4B007DCD8E /* SingleVideoViewController.m */,
-				696654DA206C0F4B007DCD8E /* Main.storyboard */,
-				696654DB206C0F4B007DCD8E /* main.m */,
-				696654DC206C0F4B007DCD8E /* youtube-player-ios-example-Prefix.pch */,
-				696654DD206C0F4B007DCD8E /* Images.xcassets */,
-				696654DE206C0F4B007DCD8E /* PlaylistViewController.m */,
-				696654DF206C0F4B007DCD8E /* Launch.storyboard */,
-				696654E0206C0F4B007DCD8E /* AppDelegate.m */,
-				696654E1206C0F4B007DCD8E /* SingleVideoViewController.h */,
-			);
-			path = "youtube-player-ios-example";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -157,11 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				696654E7206C0F4C007DCD8E /* YoutubePlayer_in_WKWebView.h in Headers */,
-				696654F8206C0F4C007DCD8E /* youtube-player-ios-example-Prefix.pch in Headers */,
 				696654EF206C0F4C007DCD8E /* WKYTPlayerView.h in Headers */,
-				696654F4206C0F4C007DCD8E /* PlaylistViewController.h in Headers */,
-				696654FD206C0F4C007DCD8E /* SingleVideoViewController.h in Headers */,
-				696654F3206C0F4C007DCD8E /* AppDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,12 +129,6 @@
 			mainGroup = 696654AF206C0DE5007DCD8E;
 			productRefGroup = 696654BA206C0DE5007DCD8E /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 696654D0206C0F4B007DCD8E /* Products */;
-					ProjectRef = 696654CF206C0F4B007DCD8E /* youtube-player-ios-example.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				696654B8206C0DE5007DCD8E /* YoutubePlayer-in-WKWebView */,
@@ -224,29 +136,13 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		696654E4206C0F4C007DCD8E /* youtube-player-ios-example.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "youtube-player-ios-example.app";
-			remoteRef = 696654E3206C0F4C007DCD8E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		696654B7206C0DE5007DCD8E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				696654FF206C0F4C007DCD8E /* YoutubePlayer-in-WKWebView.podspec in Resources */,
-				696654F9206C0F4C007DCD8E /* Images.xcassets in Resources */,
-				696654FB206C0F4C007DCD8E /* Launch.storyboard in Resources */,
-				696654F1206C0F4C007DCD8E /* youtube-player-ios-example-Info.plist in Resources */,
-				696654F2206C0F4C007DCD8E /* InfoPlist.strings in Resources */,
-				696654F0206C0F4C007DCD8E /* .gitignore in Resources */,
 				696654FE206C0F4C007DCD8E /* LICENSE in Resources */,
-				696654F6206C0F4C007DCD8E /* Main.storyboard in Resources */,
 				696654ED206C0F4C007DCD8E /* WKYTPlayerView.bundle in Resources */,
 				696654E9206C0F4C007DCD8E /* Info.plist in Resources */,
 				696654E8206C0F4C007DCD8E /* README.md in Resources */,
@@ -261,25 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				696654EE206C0F4C007DCD8E /* WKYTPlayerView.m in Sources */,
-				696654FC206C0F4C007DCD8E /* AppDelegate.m in Sources */,
-				696654F7206C0F4C007DCD8E /* main.m in Sources */,
-				696654FA206C0F4C007DCD8E /* PlaylistViewController.m in Sources */,
-				696654F5206C0F4C007DCD8E /* SingleVideoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		696654D5206C0F4B007DCD8E /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				696654D6206C0F4B007DCD8E /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		696654BF206C0DE5007DCD8E /* Debug */ = {
