@@ -15,6 +15,8 @@
 		696654EF206C0F4C007DCD8E /* WKYTPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 696654CD206C0F4B007DCD8E /* WKYTPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		696654FE206C0F4C007DCD8E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 696654E5206C0F4C007DCD8E /* LICENSE */; };
 		696654FF206C0F4C007DCD8E /* YoutubePlayer-in-WKWebView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 696654E6206C0F4C007DCD8E /* YoutubePlayer-in-WKWebView.podspec */; };
+		696874A0207D3140000E6E8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6968749F207D3140000E6E8A /* UIKit.framework */; };
+		696874A2207D3151000E6E8A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696874A1207D3151000E6E8A /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		696654CD206C0F4B007DCD8E /* WKYTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKYTPlayerView.h; sourceTree = "<group>"; };
 		696654E5206C0F4C007DCD8E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		696654E6206C0F4C007DCD8E /* YoutubePlayer-in-WKWebView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "YoutubePlayer-in-WKWebView.podspec"; sourceTree = "<group>"; };
+		6968749F207D3140000E6E8A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		696874A1207D3151000E6E8A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +38,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				696874A2207D3151000E6E8A /* WebKit.framework in Frameworks */,
+				696874A0207D3140000E6E8A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +56,7 @@
 				696654C4206C0F4B007DCD8E /* YoutubePlayer_in_WKWebView.h */,
 				696654E6206C0F4C007DCD8E /* YoutubePlayer-in-WKWebView.podspec */,
 				696654BA206C0DE5007DCD8E /* Products */,
+				6968749E207D3140000E6E8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +76,15 @@
 				696654CD206C0F4B007DCD8E /* WKYTPlayerView.h */,
 			);
 			path = WKYTPlayerView;
+			sourceTree = "<group>";
+		};
+		6968749E207D3140000E6E8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				696874A1207D3151000E6E8A /* WebKit.framework */,
+				6968749F207D3140000E6E8A /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
